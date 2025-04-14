@@ -1,0 +1,84 @@
+Name: Elara Meadowlight
+Race: Half-elf
+Class: Druid
+Gender: Female
+Alignment: Chaotic Good
+Stats: {'strength': 10, 'dexterity': 14, 'constitution': 16, 'intelligence': 12, 'wisdom': 18, 'charisma': 11}
+Level: 5
+Skills: ['Animal Handling', 'Nature', 'Perception', 'Survival', 'Medicine']
+Backstory: Elara grew up in a secluded grove, raised by her solitary elven mother and the whispering woods themselves.  Her mother, a powerful but reclusive druid, taught her the ways of nature from a young age, imbuing her with a deep connection to the land and its creatures.  After her mother mysteriously disappeared, Elara ventured out into the world, driven by a desire to understand the forces that took her and protect the natural world from encroaching threats.
+Personality Traits: ['Quiet and observant', 'Compassionate towards animals and nature', 'Fiercely protective of the environment', 'Slightly distrustful of outsiders', 'Can be impulsive when defending nature']
+Size: Medium
+Eye color: Emerald green
+Hair color: Long, flowing auburn
+Features: ['Small, delicate features', 'A network of vines tattooed on her arm', 'A small scar on her cheek from a wildcat attack']
+Equipment: ['Wooden staff entwined with ivy', 'Leather armor adorned with feathers', 'Healer's kit', 'Small pouch containing various herbs and seeds', 'Hunting knife']
+Gameplay Stats: {HP: 45, AC: 16, Speed: 30, Attacks: [{'name': 'Quarterstaff', 'attack_bonus': +5, 'damage': '1d6 bludgeoning'}]}
+Languages: ['Common', 'Elvish', 'Druidic']
+Motivation: To protect the natural world and uncover the mystery behind her mother's disappearance.
+Fear: The unchecked growth of civilization and the destruction of the wilderness.
+Alive: True
+
+Name: Ronan Stonehand
+Race: Half-orc
+Class: Ranger
+Gender: Male
+Alignment: Neutral Good
+Stats: {'strength': 16, 'dexterity': 14, 'constitution': 15, 'intelligence': 10, 'wisdom': 12, 'charisma': 8}
+Level: 5
+Skills: ['Athletics', 'Survival', 'Stealth', 'Perception', 'Animal Handling']
+Backstory: Ronan grew up in a small, isolated village on the edge of a vast forest.  His half-orc heritage made him an outsider, but his skill with a bow and his deep knowledge of the woods earned him the respect of the villagers.  When a blight began to ravage the forest, threatening both the village and the wildlife he loved, Ronan set out to find the cause and stop it, vowing to protect both his home and the creatures of the wild.
+Personality Traits: ['Gruff and taciturn', 'Loyal to those he trusts', 'Protective of the natural world', 'Strong sense of justice', 'Can be quick to anger when provoked']
+Size: Large
+Eye color: Hazel
+Hair color: Black, close-cropped
+Features: ['Large frame and powerful build', 'Several scars across his body from past encounters', 'A weathered face showing years spent in the wilderness']
+Equipment: ['Longbow with quiver of arrows', 'Hunting knife', 'Leather armor', 'Waterskin', 'Rations', 'Tracking tools']
+Gameplay Stats: {HP: 50, AC: 15, Speed: 35, Attacks: [{'name': 'Longbow', 'attack_bonus': +6, 'damage': '1d8 piercing'}]}
+Languages: ['Common', 'Giant']
+Motivation: To cure the blight affecting the forest and protect his home.
+Fear: The complete destruction of the forest and the loss of all its creatures.
+Alive: True
+
+Name: Lyra Riverwood
+Race: Wood Elf
+Class: Ranger
+Gender: Female
+Alignment: Neutral Good
+Stats: {'strength': 12, 'dexterity': 16, 'constitution': 14, 'intelligence': 10, 'wisdom': 14, 'charisma': 11}
+Level: 5
+Skills: ['Stealth', 'Survival', 'Perception', 'Animal Handling', 'Nature']
+Backstory: Lyra grew up amongst the whispering pines and babbling brooks of the Whisperwind Forest, learning the ways of the woods from her ranger father. He taught her to track, to hunt, and to respect the delicate balance of nature. After her father's death at the hands of poachers, she dedicated her life to protecting the forest and its creatures, becoming a fierce guardian of the Whisperwind.
+Personality Traits: ['Calm and observant', 'Deeply connected to nature', 'Determined and resourceful', 'Reluctant to trust strangers', 'Wary of outsiders encroaching on the forest']
+Size: Medium
+Eye color: Hazel
+Hair color: Long, braided brown
+Features: ['Lithe and agile build', 'A collection of small, intricately carved wooden charms around her neck', 'Several small scars on her arms from encounters with forest creatures']
+Equipment: ['Longbow with quiver of arrows', 'Hunting knife', 'Leather armor', 'Waterskin', 'Rations', 'Small pouch of herbs and medicinal plants', 'Spyglass']
+Gameplay Stats: {HP: 40, AC: 16, Speed: 35, Attacks: [{'name': 'Longbow', 'attack_bonus': +5, 'damage': '1d8 piercing'}]}
+Languages: ['Common', 'Elvish', 'Sylvan']
+Motivation: To protect the Whisperwind Forest and avenge her father's death.
+Fear: The complete destruction of the Whisperwind Forest and the loss of its ancient magic.
+Alive: True
+
+Name:  Elder Willowbrook
+Race:  Halfling
+Class:  Druid
+Gender: Female
+Alignment: Neutral Good
+Stats: {'strength': 8, 'dexterity': 12, 'constitution': 14, 'intelligence': 16, 'wisdom': 15, 'charisma': 10}
+Level: 5
+Skills: ['Nature', 'Medicine', 'Herbalism', 'Insight', 'Perception']
+Backstory: Elder Willowbrook is a renowned herbalist and druid, living a secluded life deep within the Whisperwind Forest.  For decades, she has dedicated herself to studying the forest's flora and fauna, developing potent remedies and a deep understanding of the land's subtle energies.  Though she prefers solitude, she's known for her wisdom and willingness to help those in need, offering her knowledge and healing freely to those who prove worthy of her trust.  She's rumored to possess ancient knowledge of the forest's hidden history.
+Personality Traits: ['Wise and patient', 'Kind but reserved', 'Deeply knowledgeable about herbs and nature', 'Slightly eccentric', 'Appreciative of quiet contemplation']
+Size: Small
+Eye color:  Brown
+Hair color:  Grey, shoulder-length
+Features: ['Wrinkled face, etched with the wisdom of years', 'A walking stick carved from ancient wood', 'Hands gnarled and stained from years of working with herbs']
+Equipment: ['Walking stick', 'Healer's kit overflowing with exotic herbs and tinctures', 'Several worn leather-bound books filled with herbal lore', 'A small, intricately carved wooden box containing rare and potent ingredients']
+Gameplay Stats: {HP: 35, AC: 14, Speed: 25, Attacks: []}
+Languages: ['Common', 'Sylvan', 'Druidic']
+Motivation: To preserve the delicate balance of the Whisperwind Forest and share her knowledge with those who will respect it.
+Fear: The uncontrolled spread of harmful magic and the loss of the forest's ancient wisdom.
+Alive: True
+

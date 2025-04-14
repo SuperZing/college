@@ -1,0 +1,70 @@
+## The Whispering Cairns
+
+**Level:** 3-5
+
+**Players:** 3-5
+
+**Setting:** A rolling, grassy plateau dotted with ancient, moss-covered cairns, near a dark and foreboding forest.
+
+**Hook:** The players are hired (or perhaps stumble upon) a desperate plea from the village of Oakhaven.  For generations, the villagers have left offerings at the Whispering Cairns, ancient burial mounds believed to hold the spirits of their ancestors.  Recently, the offerings have stopped being accepted.  Instead, whispers of unrest and strange shadows emerging from the cairns have filled the night.  The livestock are growing restless, crops are failing, and a palpable sense of dread hangs over Oakhaven. The village elder begs the adventurers to investigate.
+
+
+**The Mystery:**
+
+The source of the unrest is a powerful, malevolent spirit, a forgotten king named Malkor, whose tomb lies beneath the largest cairn. Malkor's restless spirit is attempting to break free, fueled by a growing imbalance in the natural order.  The "offerings" aren't being accepted because Malkor is consuming the life force within them, strengthening himself for his escape.
+
+**Locations:**
+
+* **Oakhaven:** A small, picturesque village clinging to the edge of the plateau. The villagers are fearful but helpful, offering information and supplies.
+* **The Whispering Cairns:**  A cluster of various-sized cairns, ranging from small, easily climbable mounds to the imposing central cairn, Malkor's tomb. The smaller cairns may contain minor puzzles or traps, or even the spirits of lesser, easily appeased ancestors who offer clues.
+* **Malkor's Tomb:** A complex labyrinth beneath the largest cairn.  This area should contain traps (pressure plates, poison darts, etc.), puzzles (rune-based riddles, manipulating levers to open paths), and guardians (animated statues, undead warriors, etc.). The final chamber holds Malkor's sarcophagus and a powerful artifact he used to maintain his power.
+
+
+**Challenges & Encounters:**
+
+* **Investigation:** Players must investigate the smaller cairns, gathering clues about Malkor and his past. This could involve deciphering ancient runes, speaking to spirits, or overcoming simple environmental puzzles.
+* **Environmental Hazards:** The plateau is home to various creatures: wild wolves, giant spiders, and possibly even a monstrous creature dwelling within the forest.
+* **Traps & Puzzles:** Malkor's tomb is heavily trapped and riddled with puzzles designed to deter intruders.
+* **Combat:** Encounters with animated statues, undead warriors, or even Malkor's spectral servants.
+* **The Final Confrontation:**  A battle with Malkor's spectral form.  He may possess abilities like shadow magic, necromancy, and illusions.
+
+
+**Climax:**
+
+The players must defeat Malkor and either destroy the artifact fueling his power or seal him away once more.  This could involve a ritual requiring specific items found throughout the adventure, a magical trap, or a direct confrontation.
+
+
+**Rewards:**
+
+* Experience points for overcoming challenges and defeating enemies.
+* Treasure found within Malkor's tomb (gold, magic items, etc.).
+* The gratitude of the villagers of Oakhaven, perhaps leading to future quests or alliances.
+* The artifact itself, if they choose to keep it (this could come with its own risks and consequences).
+
+
+**Possible Twists:**
+
+* A rival group of adventurers or a cult seeking to awaken Malkor for their own purposes.
+* Malkor’s true motive is not simply escaping, but enacting a ritual to plunge the land into eternal darkness.
+* One of the villagers is secretly working with Malkor.
+
+
+This framework allows for a flexible adventure. Adjust the difficulty, encounters, and rewards to suit your players' level and playstyle. Remember to incorporate descriptive language and immersive roleplaying opportunities to create a truly memorable experience!
+Excellent!  Let's begin our adventure in the Whispering Cairns.  To start, tell me about your character.  I need the following information:
+
+* **Name:**
+* **Race:** (Humans, Elves, Dwarves, Half-elves, Halflings, etc.  Let me know if you'd prefer a less common race and we can work that out.)
+* **Class:** (Fighter, Rogue, Wizard, Cleric, etc. Again, less common classes are fine.)
+* **Brief Background:** (One or two sentences about your character's history and motivations. What brings them to this adventure?)
+* **Personality:** (A few words describing your character's personality. Are they brave, cautious, cunning, kind, ruthless, etc.?)
+
+Once I have this information, we can begin the adventure in Oakhaven.  I'll describe the scene, and you can tell me what your character does.  We'll go from there!
+User Prompt: I am good with thatAI Output: Okay, I'm ready for your character details!  Let me know their name, race, class, brief background, and personality.  Then we'll head to Oakhaven.
+User Prompt: I am good with that
+AI Output: Okay, here's my character:
+
+* **Name:** Elara Meadowlight
+* **Race:** Half-elf
+* **Class:** Ranger
+* **Brief Background:**  Elara grew up in a small forest community, learning to track, hunt, and survive in the wilderness.  The whispers of unrest from Oakhaven, coupled with the failing crops impacting her home, drew her to investigate.
+* **Personality:** Observant, cautious, compassionate, resourceful.

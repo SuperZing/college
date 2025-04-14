@@ -1,0 +1,59 @@
+pacman -Qs | grep "pulse"
+
+#todo
+nivida, conky, sound, lockscreen, shutdown screen, polybar, display manger, fix scripts like rofi and polybar 
+
+#nvidia
+nvidia nvidia-utils nvidia-settings xorg-server-devel opencl-nvidia
+
+
+#Terminal
+insall kitty termianl
+get zsh
+get oh-my-zsh
+get gem and ruby; then fix in .zshrc file
+
+
+
+install colorls and alias it to ls; alias ls or lc='colorls --sd'
+
+#
+tar -xvzf file.tar.gz
+
+#thunar
+gvfs and gvfs-mtp and tumbler
+
+
+#after
+install bat, unzip, feh, yay
+
+
+#nvida 130 to 500 in digital vibrance
+
+
+#sound
+pulseaudio-bluetooth
+pulseaudio-alsa
+pulseaudio-bluetooth
+pulseaudio-jack
+
+bluez
+bluez-tools
+bluez-utils
+
+#bluetooth
+pulseaudio -k if it doesnt work
+bluetoothctl
+power on
+
+#how to make divices not wake up computer
+grep . /sys/bus/usb/devices/*/power/wakeup #to show devices
+sudo sh -c "echo disabled > /sys/bus/usb/devices/"name"/power/wakeup"
+
+
+#ufw
+install ufw
+sudo enable ufw
+sudo systemctl enable ufw
+
+#auto-cpufreq

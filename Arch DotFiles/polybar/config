@@ -1,0 +1,86 @@
+;==========================================================
+;
+;
+;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
+;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
+;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
+;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+;
+;
+;   To learn more about how to configure Polybar
+;   go to https://github.com/polybar/polybar
+;
+;   The README contains a lot of information
+;
+;==========================================================
+
+include-file= ~/.config/polybar/load-modules
+
+[bar/eriks]
+
+include-file= ~/.config/polybar/fonts
+
+monitor = HDMI-0
+override-redirect = false
+true-center = true
+
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+fixed-center = true
+bottom = false
+width = 100%
+height = 21
+radius = 0.0
+offset-y = 0
+offset-x = 0
+padding = 0
+line-size = 1
+border-top-size = 5
+border-top-color = ${colors.background}
+border-bottom-size = 5
+border-bottom-color = ${colors.background}
+
+module-margin = 0
+
+################################
+#width = 100%
+#height = 30
+#radius = 10.0
+#fixed-center = true
+
+#background = ${colors.background}
+#foreground = ${colors.foreground}
+
+;offset-x = +420
+
+#border-size = 5
+#border-top-size = 11
+#border-bottom-size = 0
+#border-color = #00000000
+
+#padding = 0
+
+#module-margin = 0
+
+#padding-left = 0
+#padding-right = 0
+################################
+
+modules-left = space left-color i3 right-color space
+modules-center = space left-mid date right-mid space
+modules-right = space left pulseaudio filesystem memory cpu temperature wlan power right space
+
+scroll-up = i3wm-wsnext
+scroll-down = i3wm-wsprev
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+enable-ipc = true
+wm-restack = i3
+
+; vim:ft=dosini

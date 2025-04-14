@@ -1,0 +1,9 @@
+[module/power]
+type = custom/text
+content = "  "
+
+content-background = #9d2933
+
+;click-left = LANG=C rofi -show power-menu -theme nord -font "Anka/Coder Condensed 20" -modi power-menu:~/.config/polybar/scripts/power/rofi-power-menu
+
+click-left = ~/.config/rofi/powermenu/powermenu.sh

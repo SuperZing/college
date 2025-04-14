@@ -1,0 +1,13 @@
+#make a rule file
+
+#
+dont forget to roll for saving throw
+
+
+#
+Can't change: Name, background
+
+Can change: class, level, spells, age
+
+#
+when creating a new npc use the generate_npc function
