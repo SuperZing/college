@@ -1,0 +1,283 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://Layout.png" type="Texture" id=1]
+[ext_resource path="res://assets/MarioName.png" type="Texture" id=2]
+[ext_resource path="res://assets/WarioName.png" type="Texture" id=3]
+[ext_resource path="res://assets/Items.png" type="Texture" id=4]
+[ext_resource path="res://assets/Gridv2.png" type="Texture" id=5]
+[ext_resource path="res://assets/Dark.png" type="Texture" id=6]
+[ext_resource path="res://scripts/Button.gd" type="Script" id=7]
+[ext_resource path="res://scripts/Grid.gd" type="Script" id=8]
+[ext_resource path="res://assets/Circle.png" type="Texture" id=9]
+[ext_resource path="res://scripts/Touch.gd" type="Script" id=10]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 170, 175 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 170, 175 )
+
+[node name="main" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": true
+}
+
+[node name="Dark" type="Sprite" parent="."]
+position = Vector2( 0.476563, 0 )
+scale = Vector2( 0.24, 0.24 )
+texture = ExtResource( 6 )
+centered = false
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Layout" type="Sprite" parent="."]
+visible = false
+position = Vector2( 1480.24, 720 )
+scale = Vector2( 0.239948, 0.24 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Names" type="HBoxContainer" parent="."]
+margin_left = 112.0
+margin_top = 113.0
+margin_right = 2848.0
+margin_bottom = 385.0
+size_flags_horizontal = 3
+__meta__ = {
+"_edit_group_": true,
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Mario" type="TextureRect" parent="Names"]
+margin_right = 639.0
+margin_bottom = 272.0
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Wario" type="TextureRect" parent="Names"]
+margin_left = 2097.0
+margin_right = 2736.0
+margin_bottom = 272.0
+size_flags_horizontal = 10
+texture = ExtResource( 3 )
+
+[node name="Items" type="HBoxContainer" parent="."]
+margin_left = 208.0
+margin_top = 1104.0
+margin_right = 2752.0
+margin_bottom = 1225.0
+__meta__ = {
+"_edit_group_": true,
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="MarioItems" type="TextureRect" parent="Items"]
+margin_right = 428.0
+margin_bottom = 121.0
+texture = ExtResource( 4 )
+
+[node name="WarioItems" type="TextureRect" parent="Items"]
+margin_left = 2116.0
+margin_right = 2544.0
+margin_bottom = 121.0
+size_flags_horizontal = 10
+texture = ExtResource( 4 )
+
+[node name="Board" type="Sprite" parent="."]
+position = Vector2( 1480, 720 )
+texture = ExtResource( 5 )
+script = ExtResource( 8 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="00" type="Button" parent="Board" groups=[
+"Icons",
+]]
+visible = false
+margin_left = -598.0
+margin_top = -610.992
+margin_right = -231.0
+margin_bottom = -235.992
+icon = ExtResource( 9 )
+flat = true
+expand_icon = true
+script = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="11" type="Button" parent="Board" groups=[
+"Icons",
+]]
+visible = false
+margin_left = -184.0
+margin_top = -610.992
+margin_right = 183.0
+margin_bottom = -235.992
+flat = true
+expand_icon = true
+script = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="22" type="Button" parent="Board" groups=[
+"Icons",
+]]
+visible = false
+margin_left = 231.0
+margin_top = -610.992
+margin_right = 598.0
+margin_bottom = -235.992
+flat = true
+expand_icon = true
+script = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="33" type="Button" parent="Board" groups=[
+"Icons",
+]]
+visible = false
+margin_left = -598.0
+margin_top = -188.0
+margin_right = -231.0
+margin_bottom = 187.0
+flat = true
+expand_icon = true
+script = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="44" type="Button" parent="Board" groups=[
+"Icons",
+]]
+visible = false
+margin_left = -184.0
+margin_top = -188.0
+margin_right = 183.0
+margin_bottom = 187.0
+flat = true
+expand_icon = true
+script = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="55" type="Button" parent="Board" groups=[
+"Icons",
+]]
+visible = false
+margin_left = 231.0
+margin_top = -188.0
+margin_right = 598.0
+margin_bottom = 187.0
+flat = true
+expand_icon = true
+script = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="66" type="Button" parent="Board" groups=[
+"Icons",
+]]
+visible = false
+margin_left = -598.0
+margin_top = 235.0
+margin_right = -231.0
+margin_bottom = 610.0
+flat = true
+expand_icon = true
+script = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="77" type="Button" parent="Board" groups=[
+"Icons",
+]]
+visible = false
+margin_left = -183.5
+margin_top = 234.984
+margin_right = 183.5
+margin_bottom = 609.984
+flat = true
+expand_icon = true
+script = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="88" type="Button" parent="Board" groups=[
+"Icons",
+]]
+visible = false
+margin_left = 231.0
+margin_top = 235.0
+margin_right = 598.0
+margin_bottom = 610.0
+flat = true
+expand_icon = true
+script = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="0" type="TouchScreenButton" parent="Board" groups=[
+"Icons",
+]]
+position = Vector2( -591.856, -606.159 )
+scale = Vector2( 1.05947, 1.06243 )
+shape = SubResource( 1 )
+script = ExtResource( 10 )
+
+[node name="Area2D" type="Area2D" parent="Board/0"]
+monitorable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Board/0/Area2D"]
+position = Vector2( 169.761, 175.22 )
+shape = SubResource( 2 )
+
+[node name="01 Backup" type="TouchScreenButton" parent="." groups=[
+"Icons",
+]]
+visible = false
+position = Vector2( 888.144, 113.841 )
+scale = Vector2( 1.05947, 1.06243 )
+shape = SubResource( 1 )
+script = ExtResource( 10 )
+
+[connection signal="pressed" from="Board/00" to="Board/00" method="_on_Button_pressed"]
+[connection signal="pressed" from="Board/11" to="Board/11" method="_on_Button_pressed"]
+[connection signal="pressed" from="Board/22" to="Board/22" method="_on_Button_pressed"]
+[connection signal="pressed" from="Board/33" to="Board/33" method="_on_Button_pressed"]
+[connection signal="pressed" from="Board/44" to="Board/44" method="_on_Button_pressed"]
+[connection signal="pressed" from="Board/55" to="Board/55" method="_on_Button_pressed"]
+[connection signal="pressed" from="Board/66" to="Board/66" method="_on_Button_pressed"]
+[connection signal="pressed" from="Board/77" to="Board/77" method="_on_Button_pressed"]
+[connection signal="pressed" from="Board/88" to="Board/88" method="_on_Button_pressed"]
+[connection signal="pressed" from="Board/0" to="Board/0" method="_on_touch_pressed"]
+[connection signal="pressed" from="01 Backup" to="01 Backup" method="_on_0_pressed"]
